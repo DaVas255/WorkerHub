@@ -1,0 +1,45 @@
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3rem 8rem;
+	font-size: 2rem;
+
+	&__logo {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	&__logo:hover {
+		opacity: var(--hover-opacity);
+	}
+
+	&__directions {
+		display: flex;
+		gap: 4rem;
+	}
+
+	&__link {
+		padding: 0.5rem;
+	}
+
+	&__link:hover {
+		opacity: var(--hover-opacity);
+	}
+
+	&__link:active {
+		border-bottom: 2.5px solid yellow;
+	}
+
+	&__login {
+		padding: 0.5rem 2rem;
+		border: 2px solid white;
+		font-weight: 600;
+	}
+
+	&__login:hover {
+		opacity: var(--hover-opacity);
+	}
+}

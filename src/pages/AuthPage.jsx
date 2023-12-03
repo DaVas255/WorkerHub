@@ -1,10 +1,10 @@
 import { Header } from '../components/widgets/Header/Header';
 
-export const HomePage = () => {
+export const AuthPage = () => {
 	return (
 		<div>
 			<Header />
-			<h1>Home</h1>
+			<h1>Login</h1>
 		</div>
 	);
 };
