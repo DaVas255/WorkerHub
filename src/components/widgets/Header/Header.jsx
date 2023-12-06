@@ -1,3 +1,4 @@
+import { WorkerButton } from '../../shared/WorkerButton/WorkerButton';
 import styles from './Header.module.scss';
 import { NavLink } from 'react-router-dom';
 
@@ -27,7 +28,9 @@ export const Header = () => {
 				</ul>
 			</nav>
 			<div className={styles.header__login}>
-				<NavLink to='/auth'>Login</NavLink>
+				<NavLink to='/choice'>
+					<WorkerButton>Login</WorkerButton>
+				</NavLink>
 			</div>
 		</header>
 	);
